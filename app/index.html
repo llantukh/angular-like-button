@@ -9,7 +9,10 @@
   </head>
   <body ng-app="app">
     <div class="container" ng-controller="MainController" >
-        <button ng-click = "addCount()"> {{string}}
+        <button class = "likes" ng-click = "addCount()"> {{string}}
+        </button>
+        <br /><br />
+        <button class = "toggle" ng-click = "changeCount()"> + or - likes
         </button>
     </div>
     <script src="js/bundle.js"></script>
