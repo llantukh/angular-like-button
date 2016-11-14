@@ -1,14 +1,24 @@
 .container {
     width: 500px;
     margin: 25px auto;
+
 }
 
-button {
+.likes {
   width: 200px;
   height: 80px;
   font-size: 30px;
   background: purple;
-  color: white;
+  color: lightgrey;
   border: none;
   border-radius: 15px;
+}
+
+.toggle {
+  width: 200px;
+  height: 40px;
+  background: lightgrey;
+  border: 1px solid purple;
+  border-radius: 15px;
+  color: purple;
 }
